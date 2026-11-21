@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de aprendizaje en informática y ciberseguridad.">
+  <title>Portafolio | Cyber Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">[</span> CYBER<span class="brand-accent">_</span>PORTFOLIO <span class="brand-mark">]</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#inicio" class="nav-link active">Inicio</a>
+      <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+      <a href="#habilidades" class="nav-link">Habilidades</a>
+      <a href="#proyectos" class="nav-link">Prácticas</a>
+      <a href="#contacto" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <p class="terminal-line"><span class="status-dot"></span> SISTEMA INICIADO // BIENVENIDO</p>
+        <p class="eyebrow">PORTAFOLIO PERSONAL · 2026</p>
+        <h1>Hola, soy Simón <span class="accent">un futuro profesional</span> de la tecnología<span class="cursor">_</span></h1>
+        <h2>Estudiante del centro educativo Cristóbal Adán Urriola y entusiasta de la tecnología.</h2>
+        <p class="hero-text">Estoy construyendo mis conocimientos en tecnología, programación y seguridad digital. Este espacio reúne mi proceso de aprendizaje, las herramientas que exploro y algunas prácticas que he realizado.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyectos">Ver mis prácticas <span>↗</span></a>
+          <a class="btn btn-ghost" href="#sobre-mi">Conocer más</a>
+        </div>
+        <div class="hero-meta"><span>● DISPONIBLE PARA APRENDER</span><span>UBICACIÓN: PANAMÁ OESTE</span></div>
+      </div>
+      <div class="terminal-card" aria-label="Ventana de terminal decorativa">
+        <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>terminal — user@portfolio</span><span>•••</span></div>
+        <div class="terminal-body">
+          <p><span class="term-green">user@cyber</span>:<span class="term-blue">~</span>$ whoami</p>
+          <p class="term-output">Estudiante en formación</p>
+          <p><span class="term-green">user@cyber</span>:<span class="term-blue">~</span>$ interests --list</p>
+          <p class="term-output">[+] Ciberseguridad</p>
+          <p class="term-output">[+] Desarrollo web</p>
+          <p class="term-output">[+] Redes y tecnología</p>
+          <p><span class="term-green">user@cyber</span>:<span class="term-blue">~</span>$ <span class="cursor">_</span></p>
+          <div class="terminal-bar"><span>LEARNING MODE</span><span class="bar-track"><i></i></span><span>ACTIVE</span></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#sobre-mi">DESLIZA PARA EXPLORAR <span>↓</span></a>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div class="section-heading"><p class="eyebrow">01 // PERFIL</p><h2>Sobre <span class="accent">mí</span></h2></div>
+      <div class="about-grid">
+        <div class="about-symbol"><span class="symbol-bracket">&lt;</span><span class="symbol-slash">/</span><span class="symbol-bracket">&gt;</span><small>LEARN · BUILD · REPEAT</small></div>
+        <div class="about-content">
+          <h3>La curiosidad es el punto de partida.</h3>
+          <p>Soy una persona interesada en el mundo de la informática y especialmente en la ciberseguridad. Me gusta descubrir cómo funcionan las tecnologías, entender los problemas y buscar soluciones mediante la práctica.</p>
+          <p>Actualmente estoy fortaleciendo mis bases en desarrollo web y explorando conceptos de seguridad informática. Sé que todavía tengo mucho por aprender, y precisamente por eso considero cada ejercicio y proyecto una oportunidad para mejorar.</p>
+          <div class="mini-stats"><div><strong>01</strong><span>Aprender constantemente</span></div><div><strong>02</strong><span>Practicar y experimentar</span></div><div><strong>03</strong><span>Seguir mejorando</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="habilidades">
+      <div class="section-heading"><p class="eyebrow">02 // CONOCIMIENTOS</p><h2>Habilidades y <span class="accent">herramientas</span></h2><p class="section-intro">Áreas que estoy estudiando y desarrollando. Mi nivel está en formación y seguirá creciendo con la práctica.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">&lt;/&gt;</div><h3>Desarrollo web</h3><p>Fundamentos de HTML y CSS para estructurar y diseñar páginas web.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript básico</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Ciberseguridad</h3><p>Introducción a conceptos de seguridad digital y resolución de retos educativos.</p><div class="tags"><span>CTF básico</span><span>Análisis</span><span>Seguridad</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Análisis y codificación</h3><p>Exploración de cadenas codificadas, cifrados clásicos y registros de conexión.</p><div class="tags"><span>Base64</span><span>César</span><span>Logs</span></div></article>
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>Investigación tecnológica</h3><p>Aprendizaje autónomo, documentación y búsqueda de soluciones técnicas.</p><div class="tags"><span>Investigación</span><span>Práctica</span><span>Aprendizaje</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="proyectos">
+      <div class="section-heading"><p class="eyebrow">03 // EXPERIENCIA PRÁCTICA</p><h2>Prácticas de <span class="accent">aprendizaje</span></h2><p class="section-intro">Ejercicios académicos y retos que me han permitido poner en práctica conceptos de informática y ciberseguridad.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-top"><span class="project-number">LAB_001</span><span class="project-type">ANÁLISIS</span></div><div class="project-art art-network"><span>01</span><i></i><b></b></div><h3>Análisis de registros de conexión</h3><p>Identificación de la dirección IP de origen, destino, puerto y protocolo a partir de un registro de conexión.</p><div class="tags"><span>IPv4</span><span>TCP</span><span>Logs</span></div><span class="project-status">PRÁCTICA COMPLETADA</span></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">LAB_002</span><span class="project-type">CRIPTOGRAFÍA</span></div><div class="project-art art-code"><span>0101</span><span>BASE64</span><span>ROT</span></div><h3>Codificación y cifrado</h3><p>Resolución de ejercicios con Base64 y cifrado César, identificando transformaciones aplicadas a un mensaje.</p><div class="tags"><span>Base64</span><span>César</span><span>Decodificación</span></div><span class="project-status">PRÁCTICA COMPLETADA</span></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">LAB_003</span><span class="project-type">ESTEGANOGRAFÍA</span></div><div class="project-art art-image"><span>IMAGE</span><b>?</b></div><h3>Exploración de esteganografía</h3><p>Investigación de métodos y herramientas para detectar información que puede estar oculta dentro de imágenes.</p><div class="tags"><span>Imágenes</span><span>Metadatos</span><span>CTF</span></div><span class="project-status">EN APRENDIZAJE</span></article>
+      </div>
+      <p class="disclaimer">Nota: estas tarjetas describen prácticas educativas realizadas durante mi aprendizaje; no representan experiencia laboral ni servicios profesionales.</p>
+    </section>
+
+    <section class="section goals">
+      <div class="goal-panel"><div><p class="eyebrow">04 // PRÓXIMO OBJETIVO</p><h2>El aprendizaje <span class="accent">no se detiene.</span></h2><p>Mi meta es continuar desarrollando mis habilidades en programación, redes y ciberseguridad, construir proyectos propios y adquirir experiencia mediante la práctica responsable.</p></div><div class="goal-mark">[<span>∞</span>]</div></div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="section-heading"><p class="eyebrow">05 // CONEXIÓN</p><h2>Contacto<span class="accent">.</span></h2><p class="section-intro">¿Quieres conversar sobre tecnología, aprendizaje o proyectos? Puedes encontrarme aquí:</p></div>
+      <div class="contact-panel"><div><span class="contact-label">ESTADO</span><strong><span class="status-dot"></span> Abierto a aprender y colaborar</strong></div><div><span class="contact-label">CORREO</span><a href="mailto:tu-correo@ejemplo.com" id="email-link">simonantonio1706@gmail.com</a></div><div><span class="contact-label">UBICACIÓN</span><strong>Panamá Oeste</strong></div></div>
+      
+  </main>
+
+  <footer class="footer"><a class="brand" href="#inicio"><span class="brand-mark">[</span> CYBER<span class="brand-accent">_</span>PORTFOLIO <span class="brand-mark">]</span></a><p>Construido con curiosidad, práctica y código.</p><span>© 2026 · PORTAFOLIO PERSONAL</span></footer>
+  <button class="back-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>
